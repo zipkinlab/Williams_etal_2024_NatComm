@@ -2,13 +2,17 @@
 
 ### Peter J. Williams, Elise F. Zipkin, Jedediah F. Brodie
 
+### Code/Data DOI: 
+
+### Please contact the first author for questions about the code or data: Peter J. Williams (peter.j.williams.110@gmail.com)
+
 ---------------------------------
 
 ## Abstract
 
 Biogeographic history can lead to variation in biodiversity across regions, but it remains unclear how the degree of biogeographic isolation among communities may lead to differences in biodiversity. Biogeographic analyses generally treat regions as discrete units, but species assemblages differ in how much biogeographic history they share, just as species differ in how much evolutionary history they share. Here, we use a continuous measure of biogeographic distance, phylobetadiversity, to analyze the influence of biogeographic isolation on the taxonomic and functional diversity of global mammal and bird assemblages. On average, biodiversity was better predicted by environment than by isolation, especially for birds. However, mammals in deeply isolated regions are strongly influenced by isolation; mammal assemblages in Australia and Madagascar, for example, are much less diverse than predicted by environment alone and contain unique combinations of functional traits compared to other regions. Neotropical bat assemblages are far more functionally diverse than Paleotropical assemblages, reflecting the different trajectories of bat communities that have developed in isolation over tens of millions of years. Our results elucidate how long-lasting biogeographic barriers can lead to divergent diversity patterns, against the backdrop of environmental determinism that predominantly structures diversity across most of the world.
 
-## Code
+## [Code](Code)
 
 1. **[0_DataPrep_AllTaxa.R](Code/0_DataPrep_AllTaxa.R)**: Create global 2x2 degree grid cells, calculate environment variables for each grid cell, and create assemblages for each grid cell. Environment variables include mean elevation, elevation range, present-day climate, past climate, distance between present-day climate and past climate, past ice cover, years since significant land conversion, and Human Impact Index. Assemblages are lists of all bird, mammal, or bat species with range maps that overlap a given cell.
 2. **1_SR_PD_FR_XXXX.R**: Calculate species richness (SR), phylogenetic diversity (PD), and functional richness (FR) for each grid cell. Also calculate functional PCoA. Separate scripts for birds, mammals, and bats.
@@ -68,7 +72,7 @@ Biogeographic history can lead to variation in biodiversity across regions, but 
 17. **[5_AdditionalVariables.R](Code/5_AdditionalVariables.R)**: Calculate additional variance explained by environment variables besides climate (Supplementary Table 2).
 18. **[5_PresentVsPastClimate.R](Code/5_PresentVsPastClimate.R)**: Calculate variance explained using climate data from present day, Last Glacial Maximum, and mid-Holocene (Supplementary Table 4).
 
-## Data
+## [Data](Data)
 
 ### Raw data
 1. **newRealms**: Zoogeographic realms. Available from the Center for Macroecology, Evolution and Climate at the University of Copenhagen ([https://macroecology.ku.dk/resources/wallace](https://macroecology.ku.dk/resources/wallace)).
