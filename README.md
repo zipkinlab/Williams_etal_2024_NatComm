@@ -2,7 +2,7 @@
 
 ### Peter J. Williams, Elise F. Zipkin, Jedediah F. Brodie
 
-### Code/Data DOI: 
+### Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10779125.svg)](https://doi.org/10.5281/zenodo.10779125)
 
 ### Please contact the first author for questions about the code or data: Peter J. Williams (peter.j.williams.110@gmail.com)
 
