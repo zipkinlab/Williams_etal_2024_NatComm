@@ -1,4 +1,4 @@
-# Deep biogeographic barriers explain divergent global vertebrate communities
+# [Deep biogeographic barriers explain divergent global vertebrate communities](https://www.nature.com/articles/s41467-024-46757-z)
 
 ### Nature Communications
 
@@ -136,3 +136,5 @@ Biogeographic history can lead to variation in biodiversity across regions, but 
 12. **XXXX_fb.RDS**: Output from functional beta diversity calculation, including distance matrices for total beta diversity, turnover, and nestedness. Separate files for mammals and bats.
     - mamm_fb.RDS: File too large to push to GitHub.
     - [bat_fb.RDS](Data/bat_fb.RDS)
+
+## [Published PDF](Williams_etal_2024_NatComm.pdf)
